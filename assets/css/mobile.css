@@ -1,0 +1,176 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+/*BARRA DE NAVEGACION*/
+div.container-fluid{
+    padding: 0 2em 0 2em;
+}
+nav.navbar{
+    background-color: #373A3C;
+}
+h1.navbar-brand{
+    font-family: 'Lobster', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+button.navbar-toggler{
+    border-color: #fff;
+    color: #fff;
+}
+a.nav-link{
+    color: #fff;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+/*HEADER*/
+
+#img-content{
+    height: 200px;
+    width: 250px;
+    
+}
+#titulo-receta{
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Cabin', sans-serif;
+}
+div#receta-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div#content-img.container-fluid{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    margin-top: 1em;
+}
+div#content-text{
+    padding: 1em 0 1em 0;
+    margin: 1em 0 1em 0;
+}
+#content-lg{
+    margin: 0;
+    padding: 0 .5em 0;
+}
+
+div#detalles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+button.btn.btn-outline-secondary{
+    margin: 1em .5em;
+    font-family: 'Cabin', sans-serif;
+    padding: .5em .2em .5em .2em;
+    width: 120px;
+    font-size: .9em;
+    border-radius: 4px;
+}
+p#text-detalle{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: .5em;
+    font-family: 'Cabin', sans-serif;
+}
+#content-button{
+    display: flex;
+    flex-direction: row;
+}
+
+#carrusel{
+    display: none;
+}
+/*MAIN*/
+main{
+    margin: 0;
+}
+h4.ing-titulo{
+    text-align: center;
+    padding:0 0 1.2em 0;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+h5{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+li{
+    font-family: 'Cabin', sans-serif;
+}
+section#ingredientes{
+    margin: 2em;
+    padding: 0;
+}
+section#preparacion{
+    margin: 2em;
+    padding: 0;
+}
+section#recetas-relacionadas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2em ;
+}
+
+/*SECCION DE CARD*/
+.card{
+    width: 15rem;
+    margin: 0 0 2em 0;
+}
+h5.card-title{
+    padding: 1em;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+h4{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+p{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+}
+h4#titulo-re-re{
+    margin: 2em 2em 1em 2em;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-align: center;
+}
+div#content-footer-1.mt-4.p-5.bg-danger.text-white{
+    text-align: center;
+}
+.text-footer{
+    text-align: center;
+}
+button.btn.btn-outline-light{
+    padding: .5em 3em;
+}
+h2#logo-footer{
+
+    font-family: 'Lobster', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 3em;
+}
+div#content-footer-2{
+    text-align: center;
+    padding: 2em;
+    background-color: #373A3C;
+}

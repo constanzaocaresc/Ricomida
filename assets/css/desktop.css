@@ -1,0 +1,129 @@
+@media (min-width: 950px) {
+   #header{
+    display: flex;
+    flex-direction: row;
+   }
+   div#content-img{
+    border: 0px;
+   }
+   #slider-1{
+    height: 170px;
+    width: 230px;
+    margin: 1em;
+   }
+   #slider-2{
+    height: 170px;
+    width: 230px;
+    margin: 1em;
+   }
+   #slider-3{
+    height: 170px;
+    width: 230px;
+    margin: 1em;
+   }
+   #slider-4{
+    height: 170px;
+    width: 230px;
+    margin: 1em;
+   }
+   #slider-5{
+    height: 170px;
+    width: 230px;
+    margin: 1em;
+   }
+   #slider-6{
+    height: 170px;
+    width: 230px;
+    margin: 1em;
+   }
+   #slider-7{
+    height: 170px;
+    width: 230px;
+    margin: 1em;
+   }
+   #slider-8{
+    height: 170px;
+    width: 230px;
+    margin: 1em;
+   }
+   .icono{
+    color: black !important;
+   }
+   div#receta-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+
+  #titulo-receta{
+      text-align: start;
+   }
+   #content-lg{
+      padding: 0 15em 0 0;
+   }
+   div#content-img.container-fluid{
+      display: flex;
+      justify-content: end;
+      margin: 2em;
+      padding: 0;
+   }
+   p#text-detalle{
+   text-align: start;
+   }
+   img#img-content{
+      height: 384px;
+      width: 482px;
+      margin: 0;
+      padding: 0;   
+      align-items: end;
+   }
+   button.btn.btn-outline-secondary{
+      margin: 0 1em 0 0;
+   }
+   #carrusel{
+      display: initial;
+
+   }
+   
+   /*MAIN*/
+   #instrucciones{
+      display: flex;
+      justify-content: center;
+   }
+   #demo.carousel.slide.border-bottom.border-black{
+      margin: 0 15em;
+   }
+   section#ingredientes{
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      margin: 2em 0 0 10em;
+   }
+   h4{
+      text-align: start;
+      text-decoration: underline;
+      padding: 0 0 2em 0;
+      text-transform: uppercase;
+   }
+   section#preparacion{
+      padding: 0 8em 0 0;
+   }
+   
+   section#recetas-relacionadas{
+      padding: 0 12em;
+
+   }
+   div#content-card{
+      display: flex;
+      flex-direction: row;
+    }
+    .card{
+      margin: 0 1em 5em 1em;
+      width: 18em;
+    }
+    h4#titulo-re-re{
+      font-size: 2em;
+      text-decoration: none;
+    }
+}
